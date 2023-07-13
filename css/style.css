@@ -1,0 +1,142 @@
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgb(102, 153, 204);
+}
+
+.product {
+  width: 100%;
+  text-decoration: none;
+  font-size: 4vh;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.grid-container h3 {
+  text-decoration: none;
+  font-size: 3vh;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #a9a9a947;
+  font-weight: 700;
+}
+
+.grid-container a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 22%;
+  object-fit: contain;
+  height: 300px;
+  text-decoration: none;
+}
+
+.grid-container a:hover {
+  opacity: 0.6;
+  color-interpolation-filters: inherit;
+  transform: scale(1.01);
+  transition: 0.5s;
+}
+
+.box-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/img/kamionske/kamionske9.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 20px;
+
+  box-shadow: 6px 6px 19px 1px rgba(0, 0, 0, 0.75);
+}
+.box-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/img/providnefolije/providne1.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 20px;
+
+  box-shadow: 6px 6px 19px 1px rgba(0, 0, 0, 0.75);
+}
+.box-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/img/IMG00078.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 20px;
+
+  box-shadow: 6px 6px 19px 1px rgba(0, 0, 0, 0.75);
+}
+.box-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/img/bazeni/bazeni1.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 20px;
+
+  box-shadow: 6px 6px 19px 1px rgba(0, 0, 0, 0.75);
+}
+
+.box-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/img/suncobranilezaljke/suncobranilezaljke1.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 20px;
+
+  box-shadow: 6px 6px 19px 1px rgba(0, 0, 0, 0.75);
+}
+.box-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/img/autoprikolice/autoprikolica2.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 20px;
+
+  box-shadow: 6px 6px 19px 1px rgba(0, 0, 0, 0.75);
+}
+.box-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/img/tende/tenda3.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 20px;
+
+  box-shadow: 6px 6px 19px 1px rgba(0, 0, 0, 0.75);
+}
+.box-8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/img/ŠATORI/ŠATORI1.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 20px;
+
+  box-shadow: 6px 6px 19px 1px rgba(0, 0, 0, 0.75);
+}
