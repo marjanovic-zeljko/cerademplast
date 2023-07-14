@@ -17,12 +17,13 @@
 }
 
 .grid-container h3 {
+  font-family: "Source Sans Pro", sans-serif;
   text-decoration: none;
   font-size: 2.4vh;
   color: white;
   text-align: center;
   text-transform: uppercase;
-  background-color: #a9a9a947;
+  background-color: #a9a9a9cc;
   font-weight: 700;
 }
 
@@ -48,7 +49,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/img/kamionske/kamionske9.jpg");
+  background-image: url("/img/kamionske/banner.jpg");
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -60,7 +61,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/img/providnefolije/providne1.jpg");
+  background-image: url("/img/providnefolije/purple-plastic-holographic-texture-wrinkled.jpg");
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -72,7 +73,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/img/IMG00078.jpg");
+  background-image: url("/img/camci/beautiful-young-woman-red-cloak-yacht-port-stockholm-sweden\ \(1\).jpg");
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -84,7 +85,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/img/bazeni/bazeni1.jpg");
+  background-image: url("/img/bazeni/abstract-background-with-patterned-glass-texture.jpg");
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -97,7 +98,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/img/suncobranilezaljke/suncobranilezaljke1.jpg");
+  background-image: url("/img/suncobranilezaljke/restaurant-outdoor-decoration-design-concept.jpg");
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -109,7 +110,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/img/autoprikolice/autoprikolica2.jpg");
+  background-image: url("/img/autoprikolice/car-wrapping-material-vehicle.jpg");
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -121,7 +122,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/img/tende/tenda3.jpg");
+  background-image: url("/img/tende/provencal-style-windows.jpg");
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -133,7 +134,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/img/ŠATORI/ŠATORI1.jpg");
+  background-image: url("/img/ŠATORI/lifestyle-people-living-camping.jpg");
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -198,7 +199,7 @@
   background-position: center;
 }
 
-.hero-slider-providne,.hero-slider-bazeni,.hero-slider-tende {
+.hero-slider-providne,.hero-slider-bazeni,.hero-slider-tende,.hero-slider-satori,.hero-slider-autoprikolice,.hero-slider-suncobran,.hero-slider-camac {
   
   display: flex;
   background-repeat: no-repeat;
@@ -220,7 +221,20 @@
 .hero-slider-tende {
   background-image: url("/img/tende/provencal-style-windows.jpg");
 }
+.hero-slider-satori {
+  background-image: url("/img/ŠATORI/lifestyle-people-living-camping.jpg");
+}
 
+.hero-slider-autoprikolice {
+  background-image: url("/img/autoprikolice/car-wrapping-material-vehicle.jpg");
+}
+.hero-slider-suncobran {
+  background-image: url("/img/suncobranilezaljke/restaurant-outdoor-decoration-design-concept.jpg");
+}
+
+.hero-slider-camac {
+  background-image: url("/img/camci/beautiful-young-woman-red-cloak-yacht-port-stockholm-sweden\ \(1\).jpg");
+}
 .hero-tittle{
   font-family: "Source Sans Pro", sans-serif;
   font-size: 10vh;
@@ -341,6 +355,101 @@
   justify-content: center;
 }
 
+
+
+
+/* .logo {
+  color: rgb(161, 60, 255);
+} */
+
+/* .myName {
+  color: #333;
+  font-size: 22px;
+  font-family: cursive;
+} */
+
+.faq-container {
+  display: flex;
+  width: 100%;
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 21%, rgba(0, 0, 0, 0.555) 43%, rgb(22, 25, 26) 100%)!important;
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.faq-heading {
+  width: 100%;
+  font-size: 4vh;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+}
+
+.container-faq {
+  width: 650px;
+  background: transparent;
+  
+}
+
+.faq-container h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 2.4vh;
+  font-weight: 800;
+  color: gold;
+
+}
+
+.item-faq {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 18px;
+  font-size: 20px;
+  opacity: 0.8;
+  box-shadow: 4px 8px 20px rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+  height: 30px;
+  transition: all 0.4s;
+  margin: 16px 0;
+}
+
+.ye {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.image-faq {
+  width: 30px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.faqparagraph {
+  font-size: 2vh;
+  color: white;
+  text-align: justify;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.active {
+  height: 130px;
+}
+
+.act_img {
+  transform: rotate(45deg);
+}
+
+
+
+
 @media only screen and (max-width: 600px) {
   .hero-tittle{
     font-size: 5vh;
@@ -364,5 +473,15 @@
   .second-image {
     width: 320px;
     margin-bottom: 20px;
+  }
+
+  .container-faq{
+    width: 330px;
+  }
+  .faq-container h4 {
+    font-size: 2vh;
+  }
+  .faq-container {
+    padding: 80px 0;
   }
 }
