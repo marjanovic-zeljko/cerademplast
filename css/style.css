@@ -443,8 +443,9 @@
   height: 130px;
 }
 
-.act_img {
-  transform: rotate(45deg);
+.gallery-products img:hover{
+  transform: scale(1.5);
+  transition: 0.9s;
 }
 
 
