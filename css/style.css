@@ -447,7 +447,9 @@
   transform: scale(1.5);
   transition: 0.9s;
 }
-
+@media only screen and (max-width: 600px) {
+  transform: scale(1.1);
+}
 
 
 
